@@ -72,12 +72,10 @@ If it can be converted to a number, then send a `response` with the message:
 If it can not be converted to a number, then send a `response` with the message:
 > "This is not a number"
 
-> Hint: You can use the Math function `isNaN()` to see if the value is a number or not
-
-> Hint: `isNaN()` will return true or false
+> Hint: You can use the Math function `Number()` to see if the value can be converted to a number or not
 
 > Research:
 >
-> [isNaN() [en]](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN)
+> [Number() [en]](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
 >
-> [isNaN() [de]](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/isNaN)
+> [Number() [de]](https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Number)
