@@ -60,6 +60,8 @@ This middleware should return a `response` with the random number
 
 Using the snippet **GET request middleware with parameters**, write some middleware that will respond to the path `/isNumber`
 
+> Hint: Parameters can be added to a path with a `:` symbol, for example, to add the parameter `name` we would write `/:name/`
+
 This middleware should receive one parameter `value`
 
 This middleware should check that the parameter `value` can be converted to a number
